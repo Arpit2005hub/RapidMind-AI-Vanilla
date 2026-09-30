@@ -1,0 +1,15 @@
+@media (max-width: 1100px) {
+  .toolbar, .grid { grid-template-columns: 1fr; }
+  .clockbox { display: none; }
+}
+@media (max-width: 700px) {
+  body { padding: 8px 8px 28px; }
+  .header { padding: 13px; }
+  .brand h1 { font-size: 19px; }
+  .sub { display: none; }
+  .brand-icon { width: 40px; height: 40px; }
+  .analysis { grid-template-columns: 1fr; }
+  .panel { padding: 14px; }
+  .scenario-btn { font-size: 8px; }
+  .map { height: 300px; }
+}

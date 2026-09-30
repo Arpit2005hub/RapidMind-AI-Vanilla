@@ -1,0 +1,7 @@
+@keyframes pulse {
+  0%, 100% { opacity: .35; transform: scale(.92); }
+  50% { opacity: .8; transform: scale(1.05); }
+}
+@keyframes marquee {
+  to { transform: translateX(-100%); }
+}
